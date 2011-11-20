@@ -121,7 +121,6 @@ public class LayeredLayout implements Layout {
     }
 
     private void renderOrbit(Set<Node> currentOrbit, float startX, float startY, double radius) {
-
         // adjust by sizes                
         if (adjust) {
             double averageSize = 0;
